@@ -25,4 +25,5 @@ if($id==$row['id'] && $password==$row['pw'] ){ // id와 password가 맞다면 lo
    echo "<script>window.alert('아이디, 비밀번호를 확인해주세요.');</script>"; // 잘못된 아이디 또는 비빌번호 입니다
    echo "<script>location.href='login.php';</script>";
 }
+
 ?>
